@@ -1,0 +1,164 @@
+canvas {
+	position: fixed;
+	z-index: -5;
+	overflow: hidden;
+}
+
+body {
+	opacity: 1;
+	color: #3D9966;
+	background: #3D9966; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(90deg, #3C8D62, #40B29F); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(90deg, #3C8D62, #40B29F); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(90deg, #3C8D62, #40B29F); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(90deg, #3C8D62, #40B29F); /* Standard syntax */
+}
+
+p {
+	color: white;
+}
+
+.white {
+	color: white;
+}
+
+.brand_1 {
+	color: #3C8D62;
+}
+
+.brand_2 {
+	color: #3D9966;
+}
+
+.brand_3 {
+	color: #40B29F;
+}
+
+.brand_4 {
+	color: #EDEDED;
+}
+
+.brand_5 {
+	color: #FFFFFF;
+}
+
+.register-btn { 
+	display: inline-block; 
+	padding: 25px 40px; 
+	color: #444; 
+	border: solid 1px #444; 
+	text-transform: uppercase; 
+	font-weight: bold; 
+	letter-spacing: 1px; 
+}
+.register-btn:hover, .register-btn:focus { 
+	color: #40B29F; 
+	border: solid 1px #40B29F; 
+}
+
+.illustration {
+	height: 75%;
+	width: 75%;
+}
+
+.club-logo {
+	height: 40px;
+	width: 40px;
+}
+
+.navbar-brand {
+	padding: 5px;
+}
+
+.swag {
+	background: url(../img/2017/7.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 100px 0;
+}
+
+.swag h1 {
+	text-transform: none;
+}
+
+.title {
+	font-size: 3.5em;
+}
+
+.sponsors__tier {
+	text-align: center;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+}
+
+.sponsors__tier__title {
+	color: rgb(200, 200, 200);
+	font-weight: 300;
+	margin-bottom: 40px;
+	margin-top: 0;
+}
+
+.sponsors__tier__row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-around;
+	-ms-flex-pack: justify;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.sponsors__tier__row:last-child {
+	margin-bottom: 0;
+}
+
+.sponsors__tier a {
+	padding-bottom: 2em;
+	padding-top: 2em;
+	text-decoration: none;
+}
+
+.sponsors__tier img {
+	margin-bottom: 3em;
+	margin-top: 3em;
+}
+
+.sponsors__tier--platinum img {
+	max-height: 9em;
+	max-width: 100%;
+}
+
+.sponsors__tier--gold img {
+	max-height: 9em;
+	max-width: 25em;
+}
+
+.sponsors__tier--silver img {
+	max-height: 7em;
+	max-width: 14em;
+}
+
+.sponsors__tier--partner img {
+	max-height: 5em;
+	max-width: 19em;
+}
+
+.sponsors__tier--partner a {
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.sponsors__tier .sponsor--microsoft,
+.sponsors__tier .sponsor--kloudless {
+	max-height: 2.5em;
+}
+
+.faq {
+	background: #EDEDED;
+}
