@@ -171,8 +171,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* ==========================================================================
 Global Styles
 ========================================================================== */
-a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
-a:hover, a:focus { color: #40B29F; text-decoration: none; }
+a { color: #011C39; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+a:hover, a:focus { color: #F87107; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
 h2 { font-size: 15px; color: #e36802; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px #011C39; display: block; width: 35px; margin: 25px auto; }
