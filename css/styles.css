@@ -213,7 +213,7 @@ Swag
 /* ==========================================================================
 Subscribe
 ========================================================================== */
-.subscribe h1 { color: #444; margin-bottom: 40px; }
+.subscribe h1 { color: #011C39; margin-bottom: 40px; }
 .subscribe i { color: #3D9966; }
 .subscribe h1 span { display: block; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-top: 20px; letter-spacing: 1px; }
 .subscribe input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #444; padding: 20px; width: 50%; color: #F87107; }
