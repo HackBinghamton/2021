@@ -3,8 +3,6 @@ var canvas = document.getElementById('nokey'),
    can_h = parseInt(canvas.getAttribute('height')),
    ctx = canvas.getContext('2d');
 
-//console.log(typeof can_w);
-
 var ball = {
       x: 0,
       y: 0,
@@ -23,7 +21,7 @@ var ball = {
    balls = [],
    alpha_f = 0.00,
    alpha_phase = 0,
-    
+
 // Line
    link_line_width = 0.8,
    dis_limit = 300,
@@ -139,23 +137,23 @@ function updateBalls() {
     Array.prototype.forEach.call(balls, function(b) {
         b.x += b.vx;
         b.y += b.vy;
-        
+
         if(b.x > -(50) && b.x < (can_w+50) && b.y > -(50) && b.y < (can_h+50)) {
            new_balls.push(b);
         }
-        
+
         // alpha change
         b.phase += alpha_f;
         b.alpha = Math.abs(Math.cos(b.phase));
         //console.log(b.alpha);
     });
-    
+
     balls = new_balls.slice(0);
 }
 
 // loop alpha
 function loopAlphaInf() {
-    
+
 }
 
 // Draw lines
@@ -163,15 +161,15 @@ function renderLines() {
     var fraction, alpha;
     for (var i = 0; i < balls.length; i++) {
         for (var j = i + 1; j < balls.length; j++) {
-           
+
            fraction = getDisOf(balls[i], balls[j]) / dis_limit;
-            
+
            if(fraction < 1) {
                alpha = (1 - fraction).toString();
 
                ctx.strokeStyle = 'rgba(240,240,240,'+alpha+')';
                ctx.lineWidth = link_line_width;
-               
+
                ctx.beginPath();
                ctx.moveTo(balls[i].x, balls[i].y);
                ctx.lineTo(balls[j].x, balls[j].y);
@@ -186,7 +184,7 @@ function renderLines() {
 function getDisOf(b1, b2) {
     var  delta_x = Math.abs(b1.x - b2.x),
        delta_y = Math.abs(b1.y - b2.y);
-    
+
     return Math.sqrt(delta_x*delta_x + delta_y*delta_y);
 }
 
@@ -200,15 +198,15 @@ function addBallIfy() {
 // Render
 function render() {
     ctx.clearRect(0, 0, can_w, can_h);
-    
+
     renderBalls();
-    
+
     renderLines();
-    
+
     updateBalls();
-    
+
     addBallIfy();
-    
+
     window.requestAnimationFrame(render);
 }
 
@@ -230,7 +228,7 @@ function initBalls(num) {
 function initCanvas() {
     canvas.setAttribute('width', window.innerWidth);
     canvas.setAttribute('height', window.innerHeight);
-    
+
     can_w = parseInt(canvas.getAttribute('width'));
     can_h = parseInt(canvas.getAttribute('height'));
 }
