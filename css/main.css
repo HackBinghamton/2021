@@ -45,7 +45,7 @@ p {
 .register-btn {
 	display: inline-block;
 	padding: 30px 50px;
-	color: #F87107;
+	color: #FFF;
 	border: solid 1px #FFF;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -53,9 +53,9 @@ p {
   background: #011C39;
 }
 .register-btn:hover, .register-btn:focus {
-	color: #011C39;
+	color: #F87107;
 	border: solid 1px #F87107;
-  background: #F87107;
+  background: #011C39;
 }
 
 .illustration {
