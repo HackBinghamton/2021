@@ -218,7 +218,7 @@ Subscribe
 .subscribe h1 span { display: block; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-top: 20px; letter-spacing: 1px; }
 .subscribe input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #444; padding: 20px; width: 50%; color: #444; }
 .subscribe input[type=submit] { background: #011C39; border: solid 1px #011C39; padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
-.subscribe input[type=submit]:hover { background: #0461c4; border: solid 1px #0461c4; color: #fff; }
+.subscribe input[type=submit]:hover { background: #0461c4; border: solid 1px #F87107; color: #fff; }
 /* ==========================================================================
 Sponsors
 ========================================================================== */
