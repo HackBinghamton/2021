@@ -256,4 +256,4 @@ Waypoints
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
 
 .normal {color: #011C39 }
-h2.contact-details::after { content: " "; border: solid 2px #fff; display: block; width: 35px; margin: 25px auto; }
+h2.contact::after { content: " "; border: solid 2px #fff; display: block; width: 35px; margin: 25px auto; }
