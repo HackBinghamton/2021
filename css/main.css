@@ -6,12 +6,12 @@ canvas {
 
 body {
 	opacity: 1;
-	color: #3D9966;
-	background: #3D9966; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(90deg, #3C8D62, #40B29F); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(90deg, #3C8D62, #40B29F); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(90deg, #3C8D62, #40B29F); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(90deg, #3C8D62, #40B29F); /* Standard syntax */
+  color: 	#011C39;
+  background: 	#011C39; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(90deg, 	#011C39, #054d9c); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(90deg, 	#011C39, #054d9c); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(90deg, 	#011C39, #054d9c); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(90deg, 	#011C39, #054d9c); /* Standard syntax */
 }
 
 p {
@@ -27,11 +27,11 @@ p {
 }
 
 .brand_2 {
-	color: #3D9966;
+	color: #011C39;
 }
 
 .brand_3 {
-	color: #40B29F;
+	color: #DD6A2F;
 }
 
 .brand_4 {
@@ -71,7 +71,7 @@ p {
 }
 
 .swag {
-	background: url(../img/2017/7.jpg) no-repeat center center;
+	background: url(../img/2019/7.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
