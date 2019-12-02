@@ -240,7 +240,7 @@ Contact
 .up-btn { width: 50px; height: 50px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(61, 201, 179, 0.5); display: block; margin: 0 auto; color: #fff; font-size: 18px; line-height: 46px; text-align: center; position: absolute; top: -26px; left: 0; right: 0; margin-left: auto; margin-right: auto; }
 .up-btn:hover, up-btn:focus { color: #fff; background: rgba(61, 201, 179, 1); }
 .contact-details h2 { font-size: 20px; }
-.contact-details h2 span { display: block; color: #40B29F; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
+.contact-details h2 span { display: block; color: #FFF; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
 .contact-wrap { position: relative; }
 /* ==========================================================================
 Footer
