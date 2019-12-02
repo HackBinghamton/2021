@@ -257,4 +257,4 @@ Waypoints
 
 .normal {color: #011C39 }
 h2.contact::after { content: " "; border: solid 2px #fff; display: block; width: 35px; margin: 25px auto; }
-.white {color: #011C39 }
+.contact-details h2 span.white {color: #011C39 }
