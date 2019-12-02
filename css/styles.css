@@ -47,7 +47,7 @@ Typography
 * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
 
 h1 { font-size: 2em; margin: 0.67em 0; color: #353535; }
-h2 { font-size: 1.5em; margin: 0.83em 0; color: #c45a06}
+h2 { font-size: 1.5em; margin: 0.83em 0; color: #d9690d}
 h3 { font-size: 1.17em; margin: 1em 0; }
 h4 { font-size: 1em; margin: 1.33em 0; }
 h5 { font-size: 0.83em; margin: 1.67em 0; }
@@ -174,7 +174,7 @@ Global Styles
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: #40B29F; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
-h2 { font-size: 15px; color: #c45a06; text-transform: uppercase; font-weight: bold; }
+h2 { font-size: 15px; color: #e36802; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px #011C39; display: block; width: 35px; margin: 25px auto; }
 .section-padding { padding: 90px 0 100px }
 .dark-bg { background: #f3f5f8; }
@@ -218,7 +218,7 @@ Subscribe
 .subscribe h1 span { display: block; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-top: 20px; letter-spacing: 1px; }
 .subscribe input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #444; padding: 20px; width: 50%; color: #F87107; }
 .subscribe input[type=submit] { background: #011C39; border: solid 1px #F87107; padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
-.subscribe input[type=submit]:hover { background: #013a78; border: solid 1px #F87107; color: #fff; }
+.subscribe input[type=submit]:hover { background: #0461c4; border: solid 1px #F87107; color: #fff; }
 /* ==========================================================================
 Sponsors
 ========================================================================== */
