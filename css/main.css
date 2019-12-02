@@ -44,9 +44,9 @@ p {
 
 .register-btn {
 	display: inline-block;
-	padding: 25px 40px;
+	padding: 30px 50px;
 	color: #F87107;
-	border: solid 1px #F87107;
+	border: solid 1px #FFF;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 1px;
@@ -54,7 +54,7 @@ p {
 }
 .register-btn:hover, .register-btn:focus {
 	color: #011C39;
-	border: solid 1px #011C39;
+	border: solid 1px #F87107;
   background: #F87107;
 }
 
