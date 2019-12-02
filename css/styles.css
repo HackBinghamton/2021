@@ -175,7 +175,7 @@ a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-
 a:hover, a:focus { color: #40B29F; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
-h2::after { content: " "; border: solid 2px #40B29F; display: block; width: 35px; margin: 25px auto; }
+h2::after { content: " "; border: solid 2px #011C39; display: block; width: 35px; margin: 25px auto; }
 .section-padding { padding: 90px 0 100px }
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
@@ -217,8 +217,8 @@ Subscribe
 .subscribe i { color: #3D9966; }
 .subscribe h1 span { display: block; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-top: 20px; letter-spacing: 1px; }
 .subscribe input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #444; padding: 20px; width: 50%; color: #444; }
-.subscribe input[type=submit] { background: #40B29F; border: solid 1px #40B29F; padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
-.subscribe input[type=submit]:hover { background: #3C8D62; border: solid 1px #3C8D62; color: #fff; }
+.subscribe input[type=submit] { background: #011C39; border: solid 1px #011C39; padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
+.subscribe input[type=submit]:hover { background: #0461c4; border: solid 1px #0461c4; color: #fff; }
 /* ==========================================================================
 Sponsors
 ========================================================================== */
