@@ -220,6 +220,6 @@ p {
 	color: #011C39;
 }
 
-.schedule {
+.schedule:first-child {
 	font-weight: bold;
 }
