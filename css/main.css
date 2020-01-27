@@ -219,3 +219,7 @@ p {
 .subtitle {
 	color: #011C39;
 }
+
+.schedule {
+	font-weight: bold;
+}
