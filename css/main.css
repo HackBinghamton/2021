@@ -222,4 +222,5 @@ p {
 
 .schedule:first-child {
 	color: #011C39;
+	font-weight: bold;
 }
