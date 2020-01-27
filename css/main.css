@@ -58,8 +58,12 @@ p {
 	justify-content: center;
 }
 
-.card-img img {
+.card-img-rect {
 	width: 90%;
+}
+
+.card-img-square {
+	width: 70%;
 }
 
 .card-text {
