@@ -215,3 +215,7 @@ p {
 	border: none;
 	display: block;
 }
+
+.subtitle {
+	color: #011C39;
+}
