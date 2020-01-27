@@ -206,8 +206,9 @@ p {
 }
 
 #schedule h2 {
-	color: #EDEDED;
+	color: #011C39;
 	text-transform: none;
+	font-weight: bold;
 }
 
 #schedule h2::after {
@@ -218,9 +219,4 @@ p {
 
 .subtitle {
 	color: #011C39;
-}
-
-.schedule:first-child {
-	color: #011C39;
-	font-weight: bold;
 }
