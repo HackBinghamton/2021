@@ -1,2 +1,2 @@
-# 2020s
-HackBU 2020s hackathon registration website
+# 2021s
+HackBU 2021s hackathon registration website
