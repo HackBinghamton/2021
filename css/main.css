@@ -83,8 +83,8 @@ p {
   font-size: 25px;
 }
 .register-btn:hover, .register-btn:focus {
-	color: #F87107;
-	border: solid 1px #F87107;
+	color: #339966;
+	border: solid 1px #339966;
   background: #011C39;
   font-size: 25px;
 }
@@ -202,7 +202,7 @@ p {
 }
 
 .fa {
-	color: #F87107;
+	color: #339966;
 }
 
 #schedule h2 {

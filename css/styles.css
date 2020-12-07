@@ -47,7 +47,7 @@ Typography
 * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
 
 h1 { font-size: 2em; margin: 0.67em 0; color: #011C39; }
-h2 { font-size: 1.5em; margin: 0.83em 0; color: #d9690d}
+h2 { font-size: 1.5em; margin: 0.83em 0; color: #006633}
 h3 { font-size: 1.17em; margin: 1em 0; color: #011C39}
 h4 { font-size: 1em; margin: 1.33em 0; }
 h5 { font-size: 0.83em; margin: 1.67em 0; }
@@ -172,16 +172,16 @@ table { border-collapse: collapse; border-spacing: 0; }
 Global Styles
 ========================================================================== */
 a { font-weight: bold; color: #011C39; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
-a:hover, a:focus { color: #F87107; text-decoration: none; }
+a:hover, a:focus { color: #339966; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
-h2 { font-size: 15px; color: #e36802; text-transform: uppercase; font-weight: bold; }
+h2 { font-size: 15px; color: #006633; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px #011C39; display: block; width: 35px; margin: 25px auto; }
 .section-padding { padding: 90px 0 100px }
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
 .dark-box { background: #f3f5f8; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; }
 .light-box { background-color: #011C39; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 20px 0; }
-.light-box:hover, .light-box:focus { -webkit-box-shadow: 0px 3px 0px 0px #F87107; -moz-box-shadow: 0px 3px 0px 0px #F87107; box-shadow: 0px 3px 0px 0px #F87107; }
+.light-box:hover, .light-box:focus { -webkit-box-shadow: 0px 3px 0px 0px #339966; -moz-box-shadow: 0px 3px 0px 0px #339966; box-shadow: 0px 3px 0px 0px #339966; }
 .box-hover { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; }
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
 .wrapper { height: 650px; }
@@ -216,14 +216,14 @@ Subscribe
 .subscribe h1 { color: #011C39; margin-bottom: 40px; }
 .subscribe i { color: #3D9966; }
 .subscribe h1 span { display: block; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-top: 20px; letter-spacing: 1px; }
-.subscribe input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #444; padding: 20px; width: 50%; color: #F87107; }
-.subscribe input[type=submit] { background: #011C39; border: solid 1px #F87107; padding: 20px; color: #F87107; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
-.subscribe input[type=submit]:hover { background: #F87107; border: solid 1px #011C39; color: #011C39; }
+.subscribe input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #444; padding: 20px; width: 50%; color: #339966; }
+.subscribe input[type=submit] { background: #011C39; border: solid 1px #339966; padding: 20px; color: #339966; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
+.subscribe input[type=submit]:hover { background: #339966; border: solid 1px #011C39; color: #011C39; }
 /* ==========================================================================
 Sponsors
 ========================================================================== */
 .sponsors-btn { background-color: rgba(0, 0, 0, 0.6); display: inline-block; padding: 25px 40px; color: #fff; border: solid 1px #fff; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
-.sponsors-btn:hover, .ignite-btn:focus { color: #F87107; border: solid 1px #F87107; }
+.sponsors-btn:hover, .ignite-btn:focus { color: #339966; border: solid 1px #339966; }
 /* ==========================================================================
 Team
 ========================================================================== */
@@ -259,4 +259,4 @@ Waypoints
 h2.contact::after { content: " "; border: solid 2px #fff; display: block; width: 35px; margin: 25px auto; }
 .contact-details h2 span.white {color: #011C39 }
 
-span.tag {color: #F87107; font-size:20px}
+span.tag {color: #339966; font-size:20px}
