@@ -121,6 +121,14 @@ p {
 	font-size: 3.5em;
 }
 
+.sponsors_bg {
+	padding: 15px;
+	margin-left: 90px;
+	margin-right:90px;
+	margin-bottom:40px;
+	background-color: rgb(255, 255, 255, 0.3);
+}
+
 .sponsors__tier {
 	text-align: center;
 	padding-bottom: 15px;
@@ -158,8 +166,8 @@ p {
 }
 
 .sponsors__tier img {
-	margin-bottom: 3em;
-	margin-top: 3em;
+	margin-bottom: 1.5em;
+	margin-top: 1.5em;
 }
 
 .sponsors__tier--platinum img {
@@ -173,8 +181,8 @@ p {
 }
 
 .sponsors__tier--silver img {
-	max-height: 10em;
-	max-width: 14em;
+	max-height: 9em;
+	max-width: 17em;
 }
 
 .sponsors__tier--bronze img {
